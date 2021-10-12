@@ -1,0 +1,20 @@
+C:\Users\PC\source\repos\Semana11_602_2709\AppWCF\bin\Debug\AppWCF.exe.config
+C:\Users\PC\source\repos\Semana11_602_2709\AppWCF\bin\Debug\AppWCF.exe
+C:\Users\PC\source\repos\Semana11_602_2709\AppWCF\bin\Debug\AppWCF.pdb
+C:\Users\PC\source\repos\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.Form1.resources
+C:\Users\PC\source\repos\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.Properties.Resources.resources
+C:\Users\PC\source\repos\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.exe
+C:\Users\PC\source\repos\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.pdb
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\AppWCF\bin\Debug\AppWCF.exe.config
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\AppWCF\bin\Debug\AppWCF.exe
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\AppWCF\bin\Debug\AppWCF.pdb
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.csproj.AssemblyReference.cache
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.Form1.resources
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.Properties.Resources.resources
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.csproj.GenerateResource.cache
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.csproj.CoreCompileInputs.cache
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.exe
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\AppWCF\obj\Debug\AppWCF.pdb

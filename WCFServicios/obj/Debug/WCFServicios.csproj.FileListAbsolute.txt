@@ -1,0 +1,7 @@
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\WCFServicios\bin\WCFServicios.dll.config
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\WCFServicios\bin\WCFServicios.dll
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\WCFServicios\bin\WCFServicios.pdb
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\WCFServicios\obj\Debug\WCFServicios.csproj.AssemblyReference.cache
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\WCFServicios\obj\Debug\WCFServicios.csproj.CoreCompileInputs.cache
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\WCFServicios\obj\Debug\WCFServicios.dll
+C:\Users\javier\Desktop\javierarchivos here\senati 2021 2\clases en progreso\Servicios Web\notas importantes\trabajo final\Semana11_602_2709\WCFServicios\obj\Debug\WCFServicios.pdb
