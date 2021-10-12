@@ -18,11 +18,11 @@ namespace WCFServicios
         string IService2.Eliminar(Cliente reg)
         {
             string msg = "";
-            //SqlCommand cmd = new SqlCommand("DELETE FROM [dbo].[tb_clientes2] WHERE idpais=@idpais", cn);
-            SqlCommand cmd = new SqlCommand("DELETE FROM [dbo].[tb_clientes] WHERE idpais=@idcli", cn);
+            SqlCommand cmd = new SqlCommand("DELETE FROM [dbo].[tb_clientes2] WHERE idpais=@idpais", cn);
+            //SqlCommand cmd = new SqlCommand("DELETE FROM [dbo].[tb_clientes] WHERE idpais=@idcli", cn);
 
-            //cmd.Parameters.AddWithValue("@idpais", reg.Idcliente);
-            cmd.Parameters.AddWithValue("@idcli", reg.Idcliente);
+            cmd.Parameters.AddWithValue("@idpais", reg.Idcliente);
+            //cmd.Parameters.AddWithValue("@idcli", reg.Idcliente);
 
             cn.Open();
             try
@@ -47,11 +47,11 @@ namespace WCFServicios
             //throw new NotImplementedException();
             string msg = "";
             //tabla clientes2
-            //SqlCommand cmd = new SqlCommand("UPDATE [dbo].[tb_clientes2] SET nom=@nom,dir=@dir,fono=@fono WHERE idpais=@idpais", cn);
-            SqlCommand cmd = new SqlCommand("UPDATE [dbo].[tb_clientes] SET nom=@nom,dir=@dir,fono=@fono WHERE idpais=@idcli", cn);
+            SqlCommand cmd = new SqlCommand("UPDATE [dbo].[tb_clientes2] SET nom=@nom,dir=@dir,fono=@fono WHERE idpais=@idpais", cn);
+            //SqlCommand cmd = new SqlCommand("UPDATE [dbo].[tb_clientes] SET nom=@nom,dir=@dir,fono=@fono WHERE idpais=@idcli", cn);
 
-            //cmd.Parameters.AddWithValue("@idpais", reg.Idcliente);
-            cmd.Parameters.AddWithValue("@idcli", reg.Idcliente);
+            cmd.Parameters.AddWithValue("@idpais", reg.Idcliente);
+            //cmd.Parameters.AddWithValue("@idcli", reg.Idcliente);
             cmd.Parameters.AddWithValue("@nom", reg.Nombrecli);
             cmd.Parameters.AddWithValue("@dir", reg.Direccion);
             //cmd.Parameters.AddWithValue("@idpais", reg.Idpais);
@@ -80,11 +80,11 @@ namespace WCFServicios
         {
             string msg = "";
             //tabla clientes2
-            //SqlCommand cmd = new SqlCommand("INSERT INTO [dbo].[tb_clientes2] VALUES (@idpais,@nom,@dir,@fono)", cn);
-            SqlCommand cmd = new SqlCommand("INSERT INTO [dbo].[tb_clientes] VALUES (@nom,@dir,@fono)", cn);
+            SqlCommand cmd = new SqlCommand("INSERT INTO [dbo].[tb_clientes2] VALUES (@idpais,@nom,@dir,@fono)", cn);
+            //SqlCommand cmd = new SqlCommand("INSERT INTO [dbo].[tb_clientes] VALUES (@nom,@dir,@fono)", cn);
 
             //tabla clientes2
-            //cmd.Parameters.AddWithValue("@idpais", reg.Idcliente);
+            cmd.Parameters.AddWithValue("@idpais", reg.Idcliente);
             cmd.Parameters.AddWithValue("@nom", reg.Nombrecli);
             cmd.Parameters.AddWithValue("@dir", reg.Direccion);
             //cmd.Parameters.AddWithValue("@idpais", reg.Idpais);
@@ -113,8 +113,8 @@ namespace WCFServicios
         DataSet IService2.Clientes()
         {
             //tabla 2
-            //SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM [dbo].[tb_clientes2]", cn);
-            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM [dbo].[tb_clientes]", cn);
+            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM [dbo].[tb_clientes2]", cn);
+            //SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM [dbo].[tb_clientes]", cn);
             DataSet ds = new DataSet();
             da.Fill(ds);
             return ds;
