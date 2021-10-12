@@ -38,8 +38,8 @@ namespace AppWCF
         {
             Cliente reg = new Cliente();
             //tabla clientes2
-            //Guid g = Guid.NewGuid();
-            //reg.Idcliente = Guid.NewGuid().ToString();
+            Guid g = Guid.NewGuid();
+            reg.Idcliente = Guid.NewGuid().ToString();
             reg.Nombrecli = txtnombre.Text;
             reg.Direccion = txtdireccion.Text;
             reg.Idpais = cbopais.SelectedValue.ToString();
