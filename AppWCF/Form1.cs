@@ -63,7 +63,6 @@ namespace AppWCF
             reg.Idcliente = txtcodigo.Text;
             reg.Nombrecli = txtnombre.Text;
             reg.Direccion = txtdireccion.Text;
-            //reg.Idpais = "peru";
             reg.Telefono = txtfono.Text;
 
             string msg = servicio.Actualizar(reg);
