@@ -114,7 +114,7 @@ namespace WCFServicios
         {
             //tabla 2
             //SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM [dbo].[tb_clientes2]", cn);
-            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM [dbo].[tb_clientes]", cn);
+            SqlDataAdapter da = new SqlDataAdapter("SELECT idpais as ID,nom as NOMBRE,dir as DIRECCION,fono as TELEFONO FROM [dbo].[tb_clientes]", cn);
             DataSet ds = new DataSet();
             da.Fill(ds);
             return ds;

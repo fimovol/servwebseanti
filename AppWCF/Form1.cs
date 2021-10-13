@@ -27,9 +27,7 @@ namespace AppWCF
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            cbopais.DataSource = servicio.Paises().Tables[0];
-            cbopais.DisplayMember = "nombrepais";
-            cbopais.ValueMember = "idpais";
+            
             dgClientes.DataSource = servicio.Clientes().Tables[0];
             
         }
@@ -42,7 +40,7 @@ namespace AppWCF
             reg.Idcliente = Guid.NewGuid().ToString();
             reg.Nombrecli = txtnombre.Text;
             reg.Direccion = txtdireccion.Text;
-            reg.Idpais = cbopais.SelectedValue.ToString();
+            
             //reg.Idpais = "peru";
             reg.Telefono = txtfono.Text;
 
@@ -65,7 +63,6 @@ namespace AppWCF
             reg.Idcliente = txtcodigo.Text;
             reg.Nombrecli = txtnombre.Text;
             reg.Direccion = txtdireccion.Text;
-            reg.Idpais = cbopais.SelectedValue.ToString();
             //reg.Idpais = "peru";
             reg.Telefono = txtfono.Text;
 
@@ -81,6 +78,11 @@ namespace AppWCF
             string msg = servicio.Eliminar(reg);
             MessageBox.Show(msg);
             dgClientes.DataSource = servicio.Clientes().Tables[0];
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
